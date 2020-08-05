@@ -1,7 +1,9 @@
 export interface Sound {
   id: string;
   title: string;
+  description: string;
   imageUrl: string;
   date: Date;
-  time: Date;
+  time: string;
+  path: string;
 }
