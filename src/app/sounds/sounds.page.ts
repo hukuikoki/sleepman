@@ -3,7 +3,6 @@ import { IonInfiniteScroll, IonRange } from '@ionic/angular';
 
 import { Howl } from 'howler';
 import { Sound } from './sounds.model';
-import { newArray } from '@angular/compiler/src/util';
 
 @Component({
   selector: 'app-sounds',
